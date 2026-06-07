@@ -39,25 +39,14 @@ const Skills: React.FC = () => {
     },
     {
      title: "Salesforce",
-     icon: Shield,
-     color: "cyan",
+     icon: BarChart3,
+     color: "blue",
      skills: [
      { name: "Salesforce Administration", level: 93 },
      { name: "Profiles & Permission Sets", level: 88 },
      { name: "Roles & Sharing Rules", level: 85 },
      { name: "Reports & Dashboards", level: 89 }
      ]
-    },
-    {
-      title: "Data Analytics",
-      icon: BarChart3,
-      color: "purple",
-      skills: [
-        { name: "NumPy", level: 85 },
-        { name: "Pandas", level: 88 },
-        { name: "Matplotlib", level: 82 },
-        { name: "Machine Learning", level: 80 }
-      ]
     },
     {
       title: "Tools & Databases",
@@ -79,29 +68,14 @@ const Skills: React.FC = () => {
     date: "Aug 2025"
   },
   {
-    name: "Technology Job Simulation",
-    issuer: "Deloitte",
-    date: "Jul 2025"
-  },
-  {
     name: "McKinsey.org Forward Program",
     issuer: "McKinsey & Company",
     date: "Jul 2025"
   },
   {
-    name: "Introduction to Cybersecurity",
-    issuer: "Cisco",
-    date: "Apr 2025"
-  },
-  {
     name: "Data Analytics Essentials",
     issuer: "Cisco",
     date: "Mar 2025"
-  },
-  {
-    name: "Data Analysis with Python",
-    issuer: "CognitiveClass.ai",
-    date: "Dec 2024"
   }
 ];
 
