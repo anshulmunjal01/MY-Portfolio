@@ -10,79 +10,82 @@ const Projects: React.FC = () => {
   }, []);
 
   const projects = [
-    {
-      id: 1,
-      title: "Interactive Portfolio Website",
-      description: "This very portfolio - a responsive, coding-themed showcase with advanced animations",
-      longDescription: "A modern, interactive portfolio website built with React and TypeScript, featuring terminal-style animations, particle effects, and smooth transitions. This project demonstrates advanced frontend development skills with a focus on user experience and visual appeal.",
-      image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["HTML","CSS", "Javascript", "TypeScript"],
-      github: "https://github.com/anshulmunjal01",
-      demo: "#",
-      features: [
-        "Terminal-style typing animations",
-        "Interactive particle background system",
-        "Smooth page transitions with coding themes",
-        "Responsive design for all devices",
-        "Professional dark theme with accent colors",
-        "SEO optimized and performance focused"
-      ],
-      metrics: [
-        "30% increase in profile views",
-        "15% improvement in search ranking",
-        "25% boost in mobile engagement",
-        "10% reduction in bounce rate"
-      ]
-    },
-    {
-      id: 2,
-      title: "TaskSync - Assignment Management System",
-      description: "Login-based web platform for assignment submissions and evaluations",
-      longDescription: "A comprehensive assignment management system designed to streamline the academic workflow. Features secure authentication, real-time tracking, automated notifications, and detailed reporting capabilities for both students and educators.",
-      image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["HTML5", "CSS3", "JavaScript", "MySQL", "PHP"],
-      github: "https://github.com/anshulmunjal01",
-      demo: "#",
-      features: [
-        "Secure user authentication with role-based access",
-        "Real-time assignment tracking and notifications",
-        "Automated grading and feedback system",
-        "Progress tracking and analytics dashboard",
-        "File upload and management system",
-        "Responsive design for mobile and desktop"
-      ],
-      metrics: [
-        "200+ active users",
-        "20% reduction in administrative overhead",
-        "25% decrease in manual grading time",
-        "Improved workflow efficiency"
-      ]
-    },
-    {
-      id: 3,
-      title: "Finding Shopping Trends using Data Analytics",
-      description: "Interactive dashboard for consumer data analysis and visualization",
-      longDescription: "A comprehensive data analytics project developed during my internship at TechSaksham. Features advanced data processing, machine learning algorithms, and interactive visualizations to derive actionable business insights from large datasets.",
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Python", "Pandas", "Matplotlib", "NumPy", "Excel", "ML Algorithms"],
-      github: "https://github.com/anshulmunjal01",
-      demo: "#",
-      features: [
-        "Analysis of 10,000+ rows of consumer data",
-        "Machine Learning algorithms (Linear Regression, K-Means)",
-        "Interactive data visualizations",
-        "Automated reporting and insights generation",
-        "Predictive analytics for customer behavior",
-        "Real-time dashboard updates"
-      ],
-      metrics: [
-        "15% improvement in forecasting accuracy",
-        "20% enhancement in customer predictions",
-        "25% increase in reporting efficiency",
-        "15 hours saved per week in manual work"
-      ]
-    }
-  ];
+{
+id: 1,
+title: "Lumira – AI Mental Health Assistant",
+description: "Avatar-based AI assistant for real-time mental health support and wellness tracking",
+longDescription: "An AI-powered mental health platform built using the MERN stack, Python NLP, and LLM models. The application features dual AI personas, personal journaling, mood tracking, and wellness tools designed to provide accessible and engaging mental health support.",
+image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+technologies: [ "Python", "NLP", "LLMs", "MongoDB", "Node.js"],
+github: "https://github.com/anshulmunjal01/elumia-project",
+demo: "https://final-year-project-mental-health.vercel.app/sign-in",
+features: [
+"Avatar-based AI assistant with dual personas",
+"Real-time mental health conversations",
+"Personal journal and mood tracking modules",
+"Integrated wellness and self-care tools",
+"LLM-powered conversational experience",
+"Responsive web application deployment"
+],
+metrics: [
+"Dual AI assistant personas",
+"Real-time conversational support",
+"Integrated wellness ecosystem",
+"Scalable MERN architecture"
+]
+},
+
+{
+id: 2,
+title: "TaskNest – Automated Assignment System",
+description: "Web-based platform for assignment submission, tracking, and feedback",
+longDescription: "A role-based assignment management system developed to automate academic workflows. The platform enables assignment submissions, secure authentication, real-time feedback, and efficient tracking for students and faculty members.",
+image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
+technologies: ["HTML5", "CSS3", "JavaScript", "SQL"],
+github: "https://github.com/anshulmunjal01/TaskNest",
+demo: "https://task-nest-seven.vercel.app/",
+features: [
+"Role-based user authentication",
+"Assignment submission and tracking",
+"Real-time feedback system",
+"Automated workflow management",
+"Optimized SQL database design",
+"Responsive user interface"
+],
+metrics: [
+"200+ students and faculty users",
+"25% reduction in grading effort",
+"Improved workflow efficiency",
+"Automated academic processes"
+]
+},
+
+{
+id: 3,
+title: "Interactive Portfolio Website",
+description: "Professional portfolio showcasing projects, experience, and technical expertise",
+longDescription: "A modern portfolio website built with React and TypeScript featuring responsive design, smooth animations, and an interactive user experience. Designed to highlight professional achievements, projects, and technical skills.",
+image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
+technologies: [ "HTML5", "CSS3", "JavaScript", "React.js"],
+github: "https://github.com/anshulmunjal01/MY-Portfolio",
+demo: "https://my-portfolio-gamma-seven-91.vercel.app/",
+features: [
+"Modern responsive design",
+"Interactive UI and animations",
+"Project and experience showcase",
+"Mobile-friendly layout",
+"Optimized performance",
+"Professional branding"
+],
+metrics: [
+"Responsive across devices",
+"Modern user experience",
+"Performance optimized",
+"Professional project showcase"
+]
+}
+];
+
 
   const openModal = (projectId: number) => {
     setSelectedProject(projectId);
