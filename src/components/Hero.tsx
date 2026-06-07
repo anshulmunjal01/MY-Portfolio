@@ -13,7 +13,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   const [showCursor, setShowCursor] = useState(true);
   
   const texts = [
-    'Data Analytics Expert/Full stack Developer',
+    'Web/Salesforce Developer',
     'Full Stack Developer',
     'Problem Solver',
     'Tech Innovator'
@@ -75,9 +75,8 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           </div>
           
           <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Computer Engineering student at ABES Engineering College with expertise in 
-            data analytics and full-stack development. Passionate about leveraging technology 
-            to solve real-world problems and create impactful solutions.
+            Software Developer specializing in web development and Salesforce administration, with a focus on building scalable applications, optimizing business processes, and delivering high-quality technology solutions.
+
           </p>
         </div>
 
@@ -90,7 +89,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           </button>
           
           <a
-            href="https://drive.google.com/file/d/11Aaxk6ARMMsmph5EJVgS526ojEKyq_lB/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1nZyUM53f-yKdSQoLOxmQQ7zwRRMF5wMw/view?usp=drive_link"
             download
             className="px-8 py-3 border border-green-400 text-green-400 font-semibold rounded-lg hover:bg-green-400 hover:text-black transition-all duration-300 flex items-center gap-2"
           >
