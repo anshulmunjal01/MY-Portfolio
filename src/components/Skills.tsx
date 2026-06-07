@@ -38,6 +38,17 @@ const Skills: React.FC = () => {
       ]
     },
     {
+     title: "Salesforce",
+     icon: Shield,
+     color: "cyan",
+     skills: [
+     { name: "Salesforce Administration", level: 93 },
+     { name: "Profiles & Permission Sets", level: 88 },
+     { name: "Roles & Sharing Rules", level: 85 },
+     { name: "Reports & Dashboards", level: 89 }
+     ]
+    },
+    {
       title: "Data Analytics",
       icon: BarChart3,
       color: "purple",
@@ -56,28 +67,43 @@ const Skills: React.FC = () => {
         { name: "MySQL", level: 85 },
         { name: "GitHub", level: 90 },
         { name: "VS Code", level: 92 },
-        { name: "Tableau", level: 78 }
+        { name: "SOQL", level: 78 }
       ]
     }
   ];
 
   const certifications = [
-    {
-      name: "Data Analytics Essentials",
-      issuer: "Cisco Networking Academy",
-      date: "Mar 2025"
-    },
-    {
-      name: "Data Analysis with Python",
-      issuer: "CognitiveClass.ai",
-      date: "Dec 2024"
-    },
-    {
-      name: "Smart India Hackathon",
-      issuer: "Certificate of Participation",
-      date: "Sep 2023"
-    }
-  ];
+  {
+    name: "GenAI Powered Data Analytics Job Simulation",
+    issuer: "Tata & Forage",
+    date: "Aug 2025"
+  },
+  {
+    name: "Technology Job Simulation",
+    issuer: "Deloitte",
+    date: "Jul 2025"
+  },
+  {
+    name: "McKinsey.org Forward Program",
+    issuer: "McKinsey & Company",
+    date: "Jul 2025"
+  },
+  {
+    name: "Introduction to Cybersecurity",
+    issuer: "Cisco",
+    date: "Apr 2025"
+  },
+  {
+    name: "Data Analytics Essentials",
+    issuer: "Cisco",
+    date: "Mar 2025"
+  },
+  {
+    name: "Data Analysis with Python",
+    issuer: "CognitiveClass.ai",
+    date: "Dec 2024"
+  }
+];
 
   const getColorClasses = (color: string) => {
     const colors = {
@@ -101,7 +127,7 @@ const Skills: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-400 mx-auto mb-6"></div>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              My expertise spans across programming, web development, data analytics, and modern tools
+              My expertise spans across programming, web development, Salesforce, and modern tools
             </p>
           </div>
 
