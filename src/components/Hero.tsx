@@ -13,7 +13,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   const [showCursor, setShowCursor] = useState(true);
   
   const texts = [
-    'Web Developer/ Salesforce Admin',
+    'Web Developer and Salesforce Admin',
     'Full Stack Developer',
     'Problem Solver',
     'Tech Innovator'
