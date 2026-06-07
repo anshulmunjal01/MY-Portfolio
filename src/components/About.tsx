@@ -12,8 +12,8 @@ const About: React.FC = () => {
     {
       institution: "ABES Engineering College, Ghaziabad (AKTU)",
       degree: "Bachelor of Technology (B.Tech) in Computer Engineering",
-      period: "Aug 2022 – Present",
-      grade: "79.11% (Till 5th sem)",
+      period: "Aug 2022 – June 2026",
+      grade: "83.85% (Till 7th sem)",
       description: "Focused on computer engineering fundamentals with specialization in data analytics and software development."
     },
     {
@@ -34,6 +34,26 @@ const About: React.FC = () => {
 
   const experience = [
     {
+     title: "Software Developer Intern",
+     company: "Lutron Electronics",
+     period: "Jan 2026 – Present",
+     location: "Onsite",
+     achievements: [
+     "Developed responsive web applications using HTML, CSS, JavaScript, and Drupal, delivering 10+ feature enhancements",
+     "Administered Salesforce Profiles, Permission Sets, Roles, OWD, Sharing Rules, Reports, and Dashboards for 100+ users"
+     ]
+    },
+    {
+     title: "Software Developer Intern",
+     company: "Softpro India Pvt. Ltd.",
+     period: "Jun 2025 – Sep 2025",
+     location: "Hybrid",
+     achievements: [
+     "Developed ERP modules using the MERN stack, improving application scalability and responsiveness",
+     "Optimized SQL queries and database indexing, increasing execution speed by 18%"
+     ]
+    },
+    {
       title: "Data Analytics Intern",
       company: "TechSaksham (AICTE x Microsoft x SAP)",
       period: "Dec 2024 – Jan 2025",
@@ -48,10 +68,10 @@ const About: React.FC = () => {
   ];
 
   const achievements = [
-    "Solved 50+ algorithmic problems on LeetCode",
-    "Core Team Member for tech event planning",
-    "Top 10% in national coding competitions",
-    "Smart India Hackathon participant"
+    "Solved 150+ LeetCode problems in Data Structures and Algorithms",
+    "Led coordination and execution of college technical events",
+    "Completed industry job simulations with Deloitte, Tata, and McKinsey",
+    "Earned certifications in Data Analytics and Cybersecurity"
   ];
 
   return (
@@ -64,7 +84,7 @@ const About: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-400 mx-auto mb-6"></div>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Passionate computer engineering student with expertise in data analytics and development
+              Software Developer specializing in Web Development and Salesforce Administration, passionate about creating efficient, scalable, and impactful digital solutions.
             </p>
           </div>
 
@@ -75,15 +95,10 @@ const About: React.FC = () => {
                   Who I Am
                 </h3>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  I'm a dedicated Computer Engineering student at ABES Engineering College 
-                  with a strong passion for data analytics and full-stack development. 
-                  My journey combines academic excellence with practical experience in 
-                  machine learning, web development, and data visualization.
+                  I'm a Software Developer with experience in Web Development, Salesforce Administration, and enterprise applications. Skilled in building responsive web solutions, managing secure business systems, and developing technology-driven solutions that improve efficiency and user experience.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
-                  Through internships and projects, I've developed expertise in analyzing 
-                  large datasets, building responsive web applications, and creating 
-                  efficient solutions that drive business value and user engagement.
+                  My professional experience spans software development, CRM administration, database management, and modern web technologies. I enjoy solving complex challenges, continuously learning new technologies, and creating scalable solutions that deliver measurable business value.
                 </p>
               </div>
 
