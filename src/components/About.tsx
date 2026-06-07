@@ -121,7 +121,7 @@ const About: React.FC = () => {
                 <div className="bg-gray-800/30 rounded-lg p-4 border border-gray-700">
                   <Code className="w-6 h-6 text-green-400 mb-2" />
                   <div className="text-sm text-gray-400">LeetCode</div>
-                  <div className="text-white font-semibold">100+ Problems</div>
+                  <div className="text-white font-semibold">150+ Problems</div>
                 </div>
               </div>
 
